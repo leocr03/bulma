@@ -1,0 +1,22 @@
+{
+  "name": "bulma",
+  "version": "1.0.0",
+  "description": "bulma",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocr03/bulma.git"
+  },
+  "author": "Leonardo Cristofari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leocr03/bulma/issues"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "homepage": "https://github.com/leocr03/bulma#readme"
+}
