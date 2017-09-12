@@ -1,3 +1,8 @@
+
 $(document).ready(function() {
-    $("#footer").load("/pages/footer.html");
+    $("#header").load("/pages/templates/header.html");
+    $("#content").load("/pages/templates/content.html");
+    $("#footer").load("/pages/templates/footer.html");
+
+    $("#modifiers").load("/pages/templates/topics/modifiers.html");
 });
