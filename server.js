@@ -4,6 +4,7 @@ var app     = express();
 
 app.use('/js', express.static(path.join(__dirname, 'app/public/javascripts')));
 app.use('/pages', express.static(path.join(__dirname, 'app/public/pages')));
+app.use('/css', express.static(path.join(__dirname, 'app/public/assets/css')));
 
 app.get('*', function(req, res) {
 	return res.sendfile('app/public/pages/index.html');
